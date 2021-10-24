@@ -11,7 +11,7 @@ const {
 const { INFURA_ROPSTEN_ENDPOINT, MNEMONIC_PHRASE_WALLET } = process.env;
 
 const mnemonicPhrase = MNEMONIC_PHRASE_WALLET;
-console.log(mnemonicPhrase);
+
 const providerUrl = INFURA_ROPSTEN_ENDPOINT;
 
 const provider = new HDWalletProvider({
